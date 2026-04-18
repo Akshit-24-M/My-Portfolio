@@ -10,6 +10,6 @@ Welcome to the repository for my personal portfolio website. It showcases my ski
 ## 🌐 Connect with Me
 
 - **GitHub:** [Akshit-24-M](https://github.com/Akshit-24-M)
-- **LinkedIn:** [Akshit Mehta](https://www.linkedin.com/in/akshit-mehta/)
+- **LinkedIn:** [Akshit Mehta](https://www.linkedin.com/in/akshit-mehta-240505h/)
 
 Feel free to reach out if you want to collaborate or just say hi!
