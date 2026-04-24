@@ -12,7 +12,7 @@ const projects = [
     title: "Novia AI",
     category: "AI / ML · Healthcare",
     tools: "Python, Machine Learning, AI Prediction Models",
-    image: "/images/novia_ai.webp",
+    image: `${import.meta.env.BASE_URL}images/novia_ai.webp`,
     link: "https://github.com/Akshit-24-M",
     description:
       "A healthcare AI that predicts diseases from symptoms and prescribes detailed first-aid care plans to prevent complications from delayed treatment.",
@@ -21,7 +21,7 @@ const projects = [
     title: "A.I.R.A.H.",
     category: "AI Assistant · Voice",
     tools: "Python, JavaScript, Speech Recognition, Web APIs",
-    image: "/images/airah.webp",
+    image: `${import.meta.env.BASE_URL}images/airah.webp`,
     link: "https://github.com/Akshit-24-M",
     description:
       "A personalized AI assistant that lives on my computer — she listens, responds, searches the web, opens apps by voice, schedules meetings, and sets reminders.",
@@ -30,7 +30,7 @@ const projects = [
     title: "3D Interactive Websites",
     category: "Web Development · 3D",
     tools: "Three.js, JavaScript, GSAP, WebGL",
-    image: "/images/interactive_3d.webp",
+    image: `${import.meta.env.BASE_URL}images/interactive_3d.webp`,
     link: "https://github.com/Akshit-24-M",
     description:
       "Buttery-smooth scroll-based storytelling with immersive 3D product interactions, particle effects, and cinematic web experiences.",
@@ -39,7 +39,7 @@ const projects = [
     title: "Creative Portfolios",
     category: "Web Development · Design",
     tools: "React, Three.js, WebGPU, GLSL, CSS Animations",
-    image: "/images/portfolio_websites.webp",
+    image: `${import.meta.env.BASE_URL}images/portfolio_websites.webp`,
     link: "https://github.com/Akshit-24-M",
     description:
       "A collection of portfolio websites — from audio-reactive WebGPU with fluid motion and bloom, to 3D particle worlds and elegant slide-based designs.",

@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 declare module "gsap/SplitText" {
   export class SplitText {
     constructor(target: string | Element | NodeList | Array<Element | string>, vars?: object);
