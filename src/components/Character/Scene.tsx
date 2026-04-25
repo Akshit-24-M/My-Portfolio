@@ -73,6 +73,11 @@ const Scene = () => {
             handleResize(renderer, camera, canvasDiv, character)
           );
         }
+      }).catch((err) => {
+        console.error("Character failed to load:", err);
+        // Force loading to complete so the site doesn't hang
+        progress.clear();
+        setLoading(100);
       });
 
       let mouse = { x: 0, y: 0 },
